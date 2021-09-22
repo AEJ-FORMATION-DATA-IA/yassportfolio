@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+
+}
+.header1{
+    background: url("./images/developpeur-full-stack.jpg");
+    
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+}
+.header-text-color{
+    color: white;
+}
+.header-txt-align-center{
+    text-align: center;
+    margin: 0 4em 0 4em  ;
+    border: 1px solid  #32a1ce;
+}
+
+.header-txt-margin-top{
+    margin-top: 10%;   
+} 
+.header-h1-font{
+    font-size: 25px;
+    font-family: 'Open Sans',sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-bgrd-color{
+    background-color: rgb(71, 67, 67);
+    opacity: 0.8;
+    
+}
+section{
+    margin-top: 40px;
+    padding: 0 30px;
+
+}
+
+.width-heigth-mage{
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+}
+
+ ul{
+    list-style-type: none;  
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Open Sans',sans-serif;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    
+}
+.igs-display-flex{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.li-margin-10px{
+    margin: 20px;
+}
+.justifycontent-flex-end{
+    justify-content: flex-end;
+}
+
+
+a:hover{
+    color: rgb(221, 94, 10) ;
+}
+.nav-background-color{
+    background-color:rgb(0, 0, 0);
+    height: 75px;
+    opacity: 0.9;
+
+}
+.padding-top{
+    padding-bottom: 20px;
+}
+.text-apropos{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+
+
+/*-------------------------------  Main -------------------------*/
+.main-apropos1{
+    background-color: rgb(205, 203, 207);
+    padding: 25px;
+}
+.magin-bottom{
+    margin-top: 20px;
+}
+.txt-align{
+    text-align: justify;
+}
+.apropos-display-grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   column-gap: 20px;
+}
+section h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 5px solid #e6620b;
+    padding-bottom:  5px;
+    width: auto
+}
+.monbutton{
+    display: flex;
+    padding: 10px 20px 10px;
+    margin: 20px 20px 20px;
+    background-color: blue;
+    border:5px solid #3532ce;
+    color: #fff;
+    font-size: 13px;
+}
+/*.divme
+    
+/*------------------------------------- COMPETENCES -------------------------------------------*/
+
+.contener{
+    width: auto;
+    display: flex;
+    align-self: fl
+
+}
+.sizemage1{
+    width: 150px;
+}
+.competences h1 img{
+    vertical-align: center;
+    margin-top: 30px;
+}
+.competences{
+    display: flex;
+    align-items: center;
+}
+.red{
+    background-color: rosybrown;
+    display: flex;
+    align-items: center;
+}
+
+.sizemage{
+    width: 250px;
+    height: 180px;
+}
+.padding-top30px img{
+    
+    margin: 10px; 
+}
+.magin-right-30px{
+    margin-top: 30px;
+}
+
+
+.igs-display-grid{
+
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.size-portfoliomage{
+    /* padding:  10% 25% ;
+   padding-bottom: 25%;
+    
+    height: 180px; */
+    width: 100%;
+    height: 100%;
+}
+.div-padding{
+    padding-top: 12%;
+}
+.igs-display-grid>div{
+    background-color: #c9ad9b;
+    padding: 10px;
+}
+
+
+
+
+
+.contacts{
+    background: url(/images/developpeur-web-definition-850x550.jpg) no-repeat;
+    background-size: cover;
+    padding: 50px;
+    
+}
+.contacts > div{
+    background-color: rgba(80, 228, 228, 0.493);
+    width: 100%;
+    margin: auto
+}
+.form-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-center input, textarea{
+    margin: 10px;
+}
+textarea{
+    width: 93%;
+    height: 100px;
+    resize: none;
+
+}
+
+
+
+
+
+.separator{
+    height: 60px;
+    width: 100%;
+    background: url("/images/sitevitrine.png");
+    margin-top: 30px;
+}
